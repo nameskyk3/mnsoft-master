@@ -1,0 +1,74 @@
+{
+  "properties": [
+    {
+      "name": "server.address.dataplatformresource",
+      "type": "java.lang.String",
+      "description": "A description for 'server.address.dataplatformresource'"
+    },
+    {
+      "name": "server.address.dataplatformalarm",
+      "type": "java.lang.String",
+      "description": "A description for 'server.address.dataplatformalarm'"
+    },
+    {
+      "name": "server.address.dataplatformdata",
+      "type": "java.lang.String",
+      "description": "A description for 'server.address.dataplatformdata'"
+    },
+    {
+      "name": "server.address.orchestration",
+      "type": "java.lang.String",
+      "description": "A description for 'server.address.orchestration'"
+    },
+    {
+      "name": "server.address.analytics",
+      "type": "java.lang.String",
+      "description": "A description for 'server.address.analytics'"
+    },
+    {
+      "name": "server.address.collector",
+      "type": "java.lang.String",
+      "description": "A description for 'server.address.collector'"
+    },
+    {
+      "name": "server.address.tangoAgentService",
+      "type": "java.lang.String",
+      "description": "A description for 'server.address.tangoAgentService'"
+    },
+    {
+      "name": "property.analyticsFlag",
+      "type": "java.lang.Boolean",
+      "description": "A description for 'property.analyticsFlag'"
+    },
+    {
+      "name": "property.tangoUserFlag",
+      "type": "java.lang.Boolean",
+      "description": "A description for 'property.tangoUserFlag'"
+    },
+    {
+      "name": "property.physicalLayerFlag",
+      "type": "java.lang.Boolean",
+      "description": "A description for 'property.physicalLayerFlag'"
+    },
+    {
+      "name": "property.collectPeriod",
+      "type": "java.lang.String",
+      "description": "A description for 'property.collectPeriod'"
+    },
+    {
+      "name": "property.stompPort",
+      "type": "java.lang.Integer",
+      "description": "A description for 'property.stompPort'"
+    },
+    {
+      "name": "property.maxChartPoint",
+      "type": "java.lang.Integer",
+      "description": "A description for 'property.maxChartPoint'"
+    },
+    {
+      "name": "property.resourcePopupUsageExpand",
+      "type": "java.lang.Boolean",
+      "description": "A description for 'property.resourcePopupUsageExpand'"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="Length.userModel.name">账户与格式不匹配 .</entry>
+    <entry key="Length.userModel.password">密码与格式不匹配.</entry>
+    <entry key="NotNull.userInfoModel.loginId">用户一定要有账户</entry>
+    <entry key="Length.userInfoModel.loginId">用户账户必须是最小值 {2}和最大值{1}之间的长度</entry>
+    <entry key="NotNull.userInfoModel.name">必须有名字.</entry>
+    <entry key="Length.userInfoModel.name">名字必须是最小值 {2}和最大值{1}之间的长度.</entry>
+    <entry key="Length.userInfoModel.password">密码必须是最少 {2}位数以上.</entry>
+    <entry key="Length.userInfoModel.confirmPassword">密码和密码确认值必须是相同的值.</entry>
+    <entry key="NotNull.userInfoModel.phone">联系方式是必须的.</entry>
+    <entry key="Pattern.userInfoModel.expireDate">账户到期日的格式必须是(YYYY-MM-DD) .</entry>
+    <entry key="Length.userUpdateInfoModel.password">密码必须是最少 {2}位以上.</entry>
+    <entry key="Length.userUpdateInfoModel.confirmPassword">密码和密码确认值必须是相同的值.</entry>
+</properties>

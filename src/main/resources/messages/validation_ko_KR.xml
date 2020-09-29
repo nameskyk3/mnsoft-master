@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<entry key="Length.userModel.name">아이디가 형식에 맞지 않습니다.</entry>
+	<entry key="Length.userModel.password">비밀번호가 형식에 맞지 않습니다.</entry>
+	<entry key="NotNull.userInfoModel.loginId">사용자 아이디 는 반드시 있어야 합니다</entry>
+	<entry key="Length.userInfoModel.loginId">사용자 아이디 는 반드시 최소값  {2}과(와) 최대값 {1} 사이의 길이이어야 합니다</entry>
+	<entry key="NotNull.userInfoModel.name">이름은 반드시 있어야 합니다.</entry>
+	<entry key="Length.userInfoModel.name">이름은 반드시 최소값 {2}과(와) 최대값 {1} 사이의 길이 이어야 합니다.</entry>
+	<entry key="Length.userInfoModel.password">비밀번호는 반드시 최소 {2} 자리 이상이어야 합니다.</entry>
+	<entry key="Length.userInfoModel.confirmPassword">비밀번호 확인은 비밀번호와 동일한 값이어야 합니다.</entry>
+	<entry key="NotNull.userInfoModel.phone">연락처는 반드시 있어야 합니다.</entry>
+	<entry key="Pattern.userInfoModel.expireDate">계정만료일은 반드시 날짜형식(YYYY-MM-DD) 이어야 합니다.</entry>
+	<entry key="Length.userUpdateInfoModel.password">비밀번호는 반드시 최소 {2} 자리 이상이어야 합니다.</entry>
+	<entry key="Length.userUpdateInfoModel.confirmPassword">비밀번호 확인은 비밀번호와 동일한 값이어야 합니다.</entry>
+</properties>

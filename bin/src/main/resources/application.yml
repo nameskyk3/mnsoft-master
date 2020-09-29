@@ -1,0 +1,53 @@
+spring:
+  mvc:
+    locale: ko_KR
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: false
+  resources:
+    chain:
+      gzipped: true
+      cache: true
+  http:
+    encoding:
+      charset: UTF-8
+  datasource:
+    hikari:
+      jdbc-url: jdbc:mysql://192.168.203.101:3306/mnsoft?useSSL=false&autoReconnection=true
+      #username: ENC(1zSYTqGTjgdGSpxeeVuwU/D7AqRNOIc2KBut5xDwU8xlKc58ICJq5w==)
+      username: mnsoft
+      password: Mnsoft.12@
+      driver-class-name: com.mysql.jdbc.Driver
+      validation-query: select 1
+      maximumPoolSize: 3
+      connection-test-query: select 1
+property:  
+  projectName: project
+  projectHeader: 프로젝트
+  
+logging:
+  level:
+    root: info
+    com: debug
+server:
+    port: 8880
+    max-http-header-size: 900000
+    servlet:
+      session:
+        cookie:
+          name: mobigen-session-id
+        persistent: false
+        timeout: 0
+    compression:
+      enabled: true
+    tomcat:
+      uri-encoding: UTF-8
+      basedir: ./
+    error:
+      whitelabel:
+        enabled: false
+    address:
+      activemqport: 61613
+

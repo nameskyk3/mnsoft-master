@@ -1,0 +1,17 @@
+package-lock.json
+.svn
+.idea
+*.iml
+target/
+front/test/e2e/reports/
+front/selenium-debug.log
+/src/main/resources/static/
+.settings/
+.classpath
+.factorypath
+.project
+.metadata/
+
+src/main/java/com/mobigen/framework/utility/RestUtilBak.java
+/src/main/resources/templates/
+
